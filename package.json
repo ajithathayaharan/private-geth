@@ -1,0 +1,29 @@
+{
+  "name": "private-geth",
+  "version": "1.0.0",
+  "description": "To run ethereum as private network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel index.js -o app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajithathayaharan/private-geth.git"
+  },
+  "author": "Ajitha Thayaharan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajithathayaharan/private-geth/issues"
+  },
+  "homepage": "https://github.com/ajithathayaharan/private-geth#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "koa": "^2.0.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.13.0"
+  }
+}
